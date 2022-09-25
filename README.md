@@ -1,5 +1,3 @@
-# [Youtube Uploader Bot](https://tx.me/youtubeitbot)
-
 > Simple [Telegram Bot](https://core.telegram.org/bots "Telegram Bots") to Upload videos to [Youtube](https://youtube.com "YouTube") written in Python3.
 
 ### Contents
@@ -30,9 +28,9 @@ This is a simple hobby project which I was really curious about to implement. Th
 **Clone and setup virtual environment**
 
 ```bash
-$ git clone https://github.com/odysseusmax/utube.git
+$ git clone https://github.com/GreyMatter658/youtube-uploader-telegram-bot
 
-$ cd utube
+$ cd youtube-uploader-telegram-bot
 
 $ python3 -m venv venv
 
@@ -48,7 +46,6 @@ $ source venv/bin/activate
 - `API_HASH`(Required) - Your telegram api hash, get from [Manage Apps](https://my.telegram.org).
 - `CLIENT_ID`(Required) - Your google client id.
 - `CLIENT_SECRET`(Required) - Your google client secret.
-- `BOT_OWNER`(Required) - Telegram id of bot owner.
 - `AUTH_USERS`(optional) - Telegram id's of authorised users, separated by `,`.
 - `VIDEO_DESCRIPTION`(optional) - Any default description to be aded to the video.
 - `VIDEO_CATEGORY`(optional) - YouTube's video category id. If not specified or specified id is invalid, category id will be selected randomly.
@@ -80,10 +77,6 @@ $ python3 -m bot
 
 If you did everything correctly, the bot should be running. Go do `/start` to see if the bot is live or not. Follow the instructions provided by bot to setup authorisation and to start uploading.
 
-**Or the easy way of directly deploying to heroku**
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
 ### Development Status
 
 This project is actively maintained and will continue so until I'm tired of it.
@@ -94,27 +87,11 @@ This project is actively maintained and will continue so until I'm tired of it.
 
 - Uploading copyright contents will leads to immediate blocking of the video.
 
-- By default, all the videos are uploaded as private with random category id unless you provide `UPLOAD_MODE` and `VIDEO_CATEGORY`. You may change it after youtube processes the video.
-
-### Screenshots
-
-<p align="center">
-
-<img  width="25%" height="25%" src="./ss/overview.jpg">
-
-<img  width="25%" height="25%" src="./ss/bot-start.jpg">
-
-<img  width="25%" height="25%" src="./ss/bot-help.jpg">
-
-<img  width="25%" height="25%" src="./ss/bot-authorise.jpg">
-
-<img  width="25%" height="25%" alt="Upload" src="./ss/bot-upload.jpg">
-
-</p>
+- By default, all the videos are uploaded as unlisted with random category id unless you provide `UPLOAD_MODE` and `VIDEO_CATEGORY`. You may change it after youtube processes the video.
 
 ### Video Tutorial
 
-Here's a YouTube tutorial video for deploying the bot on [Heroku](https://heroku.com/ "Heroku"). [Video Link](https://youtu.be/QHHTSS00anw "Tutorial video for deploying to Heroku").
+Here's a YouTube tutorial video for deploying the bot on [Tutorial]().
 
 ### Contact
 
@@ -125,7 +102,4 @@ Original Repo Owner 👇
 [@odysseusmax](https://github.com/odysseusmax)
 
 
-All thanks to him for his work and codes🙏.
-### License
-
-Code released under [GNU General Public License v3.0](LICENSE).
+All thanks to him for his work🙏.

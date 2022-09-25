@@ -90,7 +90,7 @@ This project is actively maintained and will continue so until I'm tired of it.
 
 ### Video Tutorial
 
-Here's a YouTube tutorial video for deploying the bot on [Tutorial]().
+Here's a YouTube tutorial video for deploying the bot [Tutorial]().
 
 ### Contact
 

@@ -18,7 +18,7 @@ class Config:
 
     VIDEO_DESCRIPTION = "Allah Hu Akbar ☝️"
 
-    VIDEO_CATEGORY = "1"
+    VIDEO_CATEGORY = "Film & Animation"
 
     VIDEO_TITLE_PREFIX = ""
 
